@@ -21,7 +21,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="36"><Run Language="fr-fr" Text="?"/></TextBlock>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" ><Run Language="fr-fr" Text="?"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" MouseDown="TextBlock_MouseDown" ><Run Language="fr-fr" Text="?"/></TextBlock>
         <TextBlock Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36"><Run Language="fr-fr" Text="?"/></TextBlock>
         <TextBlock Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36"><Run Language="fr-fr" Text="?"/></TextBlock>
         <TextBlock Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" UseLayoutRounding="True"><Run Language="fr-fr" Text="?"/></TextBlock>
